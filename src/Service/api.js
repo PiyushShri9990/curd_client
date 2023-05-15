@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const URL = "http://localhost:5500";
+// const URL = "http://localhost:5500";
+const URL = "https://server-jael.onrender.com";
 
 export const addUser = async (data) => {
   try {
