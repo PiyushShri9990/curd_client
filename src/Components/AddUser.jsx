@@ -8,7 +8,7 @@ import {
   styled,
   Typography,
 } from "@mui/material";
-import { addUser } from "../Service/api";
+import { addUser } from "../Service/api.js";
 import { useNavigate } from "react-router-dom";
 
 const initialValue = {

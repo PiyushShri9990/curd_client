@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<CrudApp />} />
+        {/* <Route path="/" element={<CrudApp />} /> */}
         <Route path="/all" element={<AllUsers />} />
         <Route path="/add" element={<AddUser />} />
         <Route path="/edit/:id" element={<EditUser />} />
